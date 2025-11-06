@@ -10,7 +10,7 @@ if (!fs.existsSync(databaseFolder)) {
 }
 
 const settingsSchema = new mongoose.Schema({
-  OWNER_NUMBER: { type: String, default: "94721475081" },
+  OWNER_NUMBER: { type: String, default: "94771098429" },
   MV_SIZE: { type: String, default: "0" },
   NAME: { type: String, default: "" },
   JID: { type: String, default: "" },
@@ -47,15 +47,15 @@ SUDO: { type: [String], default: [] },
   VALUSE: { type: [String], default: [] },
 LOGO: { 
   type: String, 
-  default: "https://mv-visper-full-db.pages.dev/Data/visper_main.jpeg" 
+  default: "https://files.catbox.moe/qfwspq.jpg" 
 },
 MAINMENU: { 
   type: String, 
-  default: "https://files.catbox.moe/nv1b5u.png" 
+  default: "https://files.catbox.moe/qfwspq.jpg" 
 },
   GROUPMENU: { 
   type: String, 
-  default: "https://files.catbox.moe/g014f8.png" 
+  default: "https://files.catbox.moe/qfwspq.jpg" 
 },
   OWNERMENU: { 
   type: String, 
@@ -63,31 +63,31 @@ MAINMENU: {
 },
   CONVERTMENU: { 
   type: String, 
-  default: "https://files.catbox.moe/w5txfy.png" 
+  default: "https://files.catbox.moe/qfwspq.jpg" 
 },
   AIMENU: { 
   type: String, 
-  default: "https://files.catbox.moe/ucpido.png" 
+  default: "https://files.catbox.moe/qfwspq.jpg" 
 },
   LOGOMENU: { 
   type: String, 
-  default: "https://files.catbox.moe/aijuom.png" 
+  default: "https://files.catbox.moe/qfwspq.jpg" 
 },
   DOWNMENU: { 
   type: String, 
-  default: "https://files.catbox.moe/5gri9l.png" 
+  default: "https://files.catbox.moe/qfwspq.jpg" 
 },
   SEARCHMENU: { 
   type: String, 
-  default: "https://files.catbox.moe/c00eef.png" 
+  default: "https://files.catbox.moe/qfwspq.jpg" 
 },
   OTHERMENU: { 
   type: String, 
-  default: "https://files.catbox.moe/5s4i1d.png" 
+  default: "https://files.catbox.moe/qfwspq.jpg" 
 },
   MOVIEMENU: { 
   type: String, 
-  default: "https://files.catbox.moe/f31voy.png" 
+  default: "https://files.catbox.moe/qfwspq.jpg" 
 },
   ANTI_DELETE: { type: String, default: "off" },
   AUTO_VOICE: { type: String, default: "false" },
